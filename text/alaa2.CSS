@@ -1,0 +1,51 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+fieldset{
+    border:1px solid rgb(197, 191, 183);
+}
+.title{
+    width: fit-content;
+    margin: 40px auto 20px;
+    color: brown;
+}
+.box{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.box label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.box input{
+    padding: 10px;
+    width: 35%;
+    border: 1px solid rgb(197, 191, 183);
+    border-radius: 5px;
+}
+.box button{
+    padding: 10px;
+    width: 120px;
+    margin-right: 3px;
+    border: none;
+    background-color: #1f5886;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+.box button:focus{
+    background-color: rgb(64, 124, 173);
+}
+.box select{
+    padding: 8px 10px;
+    border: 1px solid rgb(197, 191, 183);
+    border-radius: 5px;
+    width: 120px;
+}
+.box span{
+    margin-right: 3px;
+    color: rgb(168, 75, 8);
+}
+
